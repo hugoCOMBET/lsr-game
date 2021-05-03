@@ -51,10 +51,11 @@ class SalleController extends AbstractController
     /**
      * @Route("/{id}", name="salle_show", methods={"GET"})
      */
-    public function show(Salle $salle): Response
+    public function show(SalleRepository $salleRepository,Salle $salle): Response
     {
         return $this->render('salle/show.html.twig', [
             'salle' => $salle,
+            'salles' => $salleRepository->findAll(),
         ]);
     }
 

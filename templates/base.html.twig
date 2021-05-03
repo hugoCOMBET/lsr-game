@@ -34,7 +34,7 @@
                     </button>
                     <div class="dropdown-content white right-aligned shadow-1 rounded-1">
                         {% for salle in salles %}
-                            <a class="dropdown-item" href="#">{{ salle.ville }}</a>
+                            <a class="dropdown-item" href="/salle/{{ salle.id }}">{{ salle.ville }}</a>
                         {% endfor %}
                     </div>
                 </div>
