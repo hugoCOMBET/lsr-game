@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Partie;
 use App\Form\PartieType;
 use App\Repository\PartieRepository;
+use App\Repository\SalleRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -18,10 +19,11 @@ class PartieController extends AbstractController
     /**
      * @Route("/", name="partie_index", methods={"GET"})
      */
-    public function index(PartieRepository $partieRepository): Response
+    public function index(SalleRepository $salleRepository,PartieRepository $partieRepository): Response
     {
         return $this->render('partie/index.html.twig', [
             'parties' => $partieRepository->findAll(),
+            'salles' => $salleRepository->findAll(),
         ]);
     }
 

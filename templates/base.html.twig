@@ -33,12 +33,9 @@
                         Nos différentes salles
                     </button>
                     <div class="dropdown-content white right-aligned shadow-1 rounded-1">
-                        <a class="dropdown-item" href="#">Salle Annecy</a>
-                        <a class="dropdown-item" href="#">Salle Meythet</a>
-                        <a class="dropdown-item" href="#">Salle Syllingy</a>
-                        <a class="dropdown-item" href="#">Salle Cran-Gevrier</a>
-                        <a class="dropdown-item" href="#">Salle Seynod</a>
-                        <a class="dropdown-item" href="#">Salle Vieugy</a>
+                        {% for salle in salles %}
+                            <a class="dropdown-item" href="#">{{ salle.ville }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
