@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Avis;
+use App\Entity\Salle;
 use App\Form\AvisType;
 use App\Repository\AvisRepository;
 use App\Repository\SalleRepository;
@@ -22,7 +23,7 @@ class AvisController extends AbstractController
     public function index(SalleRepository $salleRepository,AvisRepository $avisRepository): Response
     {
         return $this->render('avis/index.html.twig', [
-            'avis' => $avisRepository->findAll(),
+            'aviss' => $avisRepository->findAll(),
             'salles' => $salleRepository->findAll(),
         ]);
     }
@@ -90,7 +91,10 @@ class AvisController extends AbstractController
             $entityManager->remove($avi);
             $entityManager->flush();
         }
-
         return $this->redirectToRoute('avis_index');
+    }
+    public function avisBySalle(Salle $salle)
+    {
+
     }
 }

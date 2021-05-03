@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Salle;
 use App\Form\SalleType;
 use App\Repository\SalleRepository;
+use App\Repository\AvisRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -18,10 +19,11 @@ class SalleController extends AbstractController
     /**
      * @Route("/", name="salle_index", methods={"GET"})
      */
-    public function index(SalleRepository $salleRepository): Response
+    public function index(AvisRepository $avisRepository,SalleRepository $salleRepository): Response
     {
         return $this->render('salle/index.html.twig', [
             'salles' => $salleRepository->findAll(),
+            'avis' => $avisRepository->findAll(),
         ]);
     }
 
@@ -51,11 +53,12 @@ class SalleController extends AbstractController
     /**
      * @Route("/{id}", name="salle_show", methods={"GET"})
      */
-    public function show(SalleRepository $salleRepository,Salle $salle): Response
+    public function show(AvisRepository $avisRepository,SalleRepository $salleRepository,Salle $salle): Response
     {
         return $this->render('salle/show.html.twig', [
             'salle' => $salle,
             'salles' => $salleRepository->findAll(),
+            'avis' => $avisRepository->findAll(),
         ]);
     }
 
