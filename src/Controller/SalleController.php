@@ -58,7 +58,7 @@ class SalleController extends AbstractController
         return $this->render('salle/show.html.twig', [
             'salle' => $salle,
             'salles' => $salleRepository->findAll(),
-            'avis' => $avisRepository->findAll(),
+            'avis' => $avisRepository->findBySalle($salle),
         ]);
     }
 
