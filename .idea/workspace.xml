@@ -19,20 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="design + commentaire par salle valide">
+    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="affichage obstacle + debut stats">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AvisController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AvisController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ClientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ObstacleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ObstacleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PartieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PartieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PhotoClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PhotoClientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PositionObstacleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PositionObstacleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SalleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SalleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ThemesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ThemesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Obstacle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Obstacle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/salle/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salle/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620206922777</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="affichage obstacle + debut stats">
+      <created>1620380445981</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380445981</updated>
+    </task>
+    <task id="LOCAL-00014" summary="affichage obstacle + debut stats">
+      <created>1620380465615</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620380465615</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +314,8 @@
     <MESSAGE value="commentaire à compléter" />
     <MESSAGE value="Affichage commentaire valide" />
     <MESSAGE value="design + commentaire par salle valide" />
-    <option name="LAST_COMMIT_MESSAGE" value="design + commentaire par salle valide" />
+    <MESSAGE value="affichage obstacle + debut stats" />
+    <option name="LAST_COMMIT_MESSAGE" value="affichage obstacle + debut stats" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620206885332">
@@ -357,11 +362,12 @@
     </state>
     <state x="2381" y="165" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618185940638" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617372962211" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620206931076">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620380471628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616771728700" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620206931076" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620380471628" />
     <state x="2426" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1618185678727">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

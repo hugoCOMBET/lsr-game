@@ -46,9 +46,9 @@
         <hr>
         <br>
 
-        <div class="d-flex flex-wrap">
+        <div class="d-flex flex-wrap" style="justify-content: space-around;align-items: flex-start;">
         {% for obstacle in obstacles %}
-                <div class="card" style="width: 20rem;height: 20%">
+                <div class="card" style="width: 18rem;">
                     <img src="{{ obstacle.photo }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ obstacle.nom }}</h5>
@@ -63,7 +63,7 @@
         <hr>
         <br>
 
-        <div class="d-flex flex-wrap">
+        <div class="d-flex flex-wrap" style="justify-content: space-around;align-items: flex-start;">
         {% for avi in avis %}
             <div class="card shadow-1 hoverable-1 rounded-3">
                 <div class="card-header">{{ avi.client.nom }} {{ avi.client.prenom }}</div>
