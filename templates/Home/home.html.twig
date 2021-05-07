@@ -39,6 +39,19 @@
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"></button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"></button>
+            <br>
+            Nombre de partie jouées dans nos établissement : {{ parties|length }}
+            <br>
+            Nombre de partie réussies dans nos établissement :
+
+            {% set count = 0 %}
+            {% for partie in parties %}
+                {% if partie.reussite == true %}
+                    {% set count = count + 1 %}
+                {% endif %}
+            {% endfor %}
+
+            {{ count }}
 
             <br><br><br>
             <br><br><br>

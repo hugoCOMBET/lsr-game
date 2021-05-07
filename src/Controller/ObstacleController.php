@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Obstacle;
 use App\Form\ObstacleType;
 use App\Repository\ObstacleRepository;
+use App\Repository\PartieRepository;
 use App\Repository\SalleRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -19,11 +20,12 @@ class ObstacleController extends AbstractController
     /**
      * @Route("/", name="obstacle_index", methods={"GET"})
      */
-    public function index(SalleRepository $salleRepository,ObstacleRepository $obstacleRepository): Response
+    public function index(PartieRepository $partieRepository,SalleRepository $salleRepository,ObstacleRepository $obstacleRepository): Response
     {
         return $this->render('obstacle/index.html.twig', [
             'obstacles' => $obstacleRepository->findAll(),
             'salles' => $salleRepository->findAll(),
+            'parties' => $partieRepository->findAll(),
         ]);
     }
 

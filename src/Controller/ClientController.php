@@ -5,6 +5,8 @@ namespace App\Controller;
 use App\Entity\Client;
 use App\Form\ClientType;
 use App\Repository\ClientRepository;
+use App\Repository\ObstacleRepository;
+use App\Repository\PartieRepository;
 use App\Repository\SalleRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -19,11 +21,13 @@ class ClientController extends AbstractController
     /**
      * @Route("/", name="client_index", methods={"GET"})
      */
-    public function index(SalleRepository $salleRepository,ClientRepository $clientRepository): Response
+    public function index(ObstacleRepository $obstacleRepository,PartieRepository $partieRepository,SalleRepository $salleRepository,ClientRepository $clientRepository): Response
     {
         return $this->render('client/index.html.twig', [
             'clients' => $clientRepository->findAll(),
             'salles' => $salleRepository->findAll(),
+            'parties' => $partieRepository->findAll(),
+            'obstacles' => $obstacleRepository->findAll(),
         ]);
     }
 

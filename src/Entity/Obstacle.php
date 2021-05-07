@@ -25,7 +25,7 @@ class Obstacle
     private $nom;
 
     /**
-     * @ORM\Column(type="blob")
+     * @ORM\Column(type="string", length=255)
      */
     private $photo;
 

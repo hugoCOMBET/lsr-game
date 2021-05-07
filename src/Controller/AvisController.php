@@ -6,6 +6,8 @@ use App\Entity\Avis;
 use App\Entity\Salle;
 use App\Form\AvisType;
 use App\Repository\AvisRepository;
+use App\Repository\ObstacleRepository;
+use App\Repository\PartieRepository;
 use App\Repository\SalleRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -20,11 +22,13 @@ class AvisController extends AbstractController
     /**
      * @Route("/", name="avis_index", methods={"GET"})
      */
-    public function index(SalleRepository $salleRepository,AvisRepository $avisRepository): Response
+    public function index(ObstacleRepository $obstacleRepository,PartieRepository $partieRepository,SalleRepository $salleRepository,AvisRepository $avisRepository): Response
     {
         return $this->render('avis/index.html.twig', [
             'aviss' => $avisRepository->findAll(),
             'salles' => $salleRepository->findAll(),
+            'parties' => $partieRepository->findAll(),
+            'obstacles' => $obstacleRepository->findAll(),
         ]);
     }
 

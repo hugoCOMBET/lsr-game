@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Partie;
 use App\Form\PartieType;
+use App\Repository\ObstacleRepository;
 use App\Repository\PartieRepository;
 use App\Repository\SalleRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -19,11 +20,12 @@ class PartieController extends AbstractController
     /**
      * @Route("/", name="partie_index", methods={"GET"})
      */
-    public function index(SalleRepository $salleRepository,PartieRepository $partieRepository): Response
+    public function index(ObstacleRepository $obstacleRepository,SalleRepository $salleRepository,PartieRepository $partieRepository): Response
     {
         return $this->render('partie/index.html.twig', [
             'parties' => $partieRepository->findAll(),
             'salles' => $salleRepository->findAll(),
+            'obstacles' => $obstacleRepository->findAll(),
         ]);
     }
 

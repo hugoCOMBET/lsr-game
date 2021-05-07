@@ -4,6 +4,8 @@ namespace App\Controller;
 
 use App\Entity\Themes;
 use App\Form\ThemesType;
+use App\Repository\ObstacleRepository;
+use App\Repository\PartieRepository;
 use App\Repository\SalleRepository;
 use App\Repository\ThemesRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -19,11 +21,13 @@ class ThemesController extends AbstractController
     /**
      * @Route("/", name="themes_index", methods={"GET"})
      */
-    public function index(SalleRepository $salleRepository,ThemesRepository $themesRepository): Response
+    public function index(ObstacleRepository $obstacleRepository,PartieRepository $partieRepository,SalleRepository $salleRepository,ThemesRepository $themesRepository): Response
     {
         return $this->render('themes/index.html.twig', [
             'themes' => $themesRepository->findAll(),
             'salles' => $salleRepository->findAll(),
+            'parties' => $partieRepository->findAll(),
+            'obstacles' => $obstacleRepository->findAll(),
         ]);
     }
 

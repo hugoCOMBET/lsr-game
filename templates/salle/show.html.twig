@@ -3,9 +3,13 @@
 {% block title %}{{ salle.ville }}{% endblock %}
 
 {% block body %}
-<center><h1>Salle de {{ salle.ville }}</h1></center>
-<center><h3>Thème : {{ salle.theme.themes }}</h3></center>
+
+
 <div class="container">
+    <center><h1>Salle de {{ salle.ville }}</h1></center>
+    <hr>
+    <center><h3>Thème : {{ salle.theme.themes }}</h3></center>
+    <hr>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -38,9 +42,28 @@
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"></button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"></button>
         <br>
+        <center><h3>Nos obstacles :</h3></center>
+        <hr>
+        <br>
+
+        <div class="d-flex flex-wrap">
+        {% for obstacle in obstacles %}
+                <div class="card" style="width: 20rem;height: 20%">
+                    <img src="{{ obstacle.photo }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ obstacle.nom }}</h5>
+                        <p class="card-text">Difficulté : {{ obstacle.typeObstacle }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <br>
         <center><h3>Commentaires des utilisateurs :</h3></center>
         <hr>
         <br>
+
+        <div class="d-flex flex-wrap">
         {% for avi in avis %}
             <div class="card shadow-1 hoverable-1 rounded-3">
                 <div class="card-header">{{ avi.client.nom }} {{ avi.client.prenom }}</div>
@@ -51,5 +74,8 @@
                 </div>
             </div>
         {% endfor %}
+        </div>
         <br><br>
+    </div>
+</div>
 {% endblock %}
