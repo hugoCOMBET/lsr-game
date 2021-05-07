@@ -2,7 +2,6 @@
 
 use lsr_game;
 
-
 insert into themes values (1,"jungle");
 insert into themes values (2,"désert");
 insert into themes values (3,"Année 80");
@@ -30,13 +29,14 @@ insert into client values (7,"feige","hugo","photo5","24 chemin de l'aunaie","20
 insert into client values (8,"Defrenes","Dimitri","photo6","25 chemin de l'aunaie","2018-09-24","dimitri@mail.com",'0782828282',"monLogin","monMDP");
 insert into client values (9,"Chanliau","Mael","photo6","25 chemin de l'aunaie","2018-09-24","mael@mail.com",'0782828282',"monLogin","monMDP");
 
-
-insert into obstacle values (1,"table","photo1","typeobstacle1",0,'00:00:00.0000000');
-insert into obstacle values (2,"chaine","photo2","typeobstacle2",0,'00:01:00.0000000');
-insert into obstacle values (3,"rampe","photo3","typeobstacle3",0,'00:02:00.0000000');
-insert into obstacle values (4,"escalier","photo4","typeobstacle4",0,'00:03:00.0000000');
-insert into obstacle values (5,"barriere","photo5","typeobstacle5",0,'00:04:00.0000000');
-insert into obstacle values (6,"meubles","photo6","typeobstacle6",0,'00:05:30.0000000');
+insert into obstacle values (1,"table","https://127.0.0.1:8000/Images/table.jfif","facile",0,'00:00:00.0000000');
+insert into obstacle values (2,"chaine","https://127.0.0.1:8000/Images/chaine.jfif","facile",0,'00:01:00.0000000');
+insert into obstacle values (3,"rampe","https://127.0.0.1:8000/Images/rampe.jfif","facile",0,'00:02:00.0000000');
+insert into obstacle values (4,"escalier","https://127.0.0.1:8000/Images/escalier.jfif","facile",0,'00:03:00.0000000');
+insert into obstacle values (5,"barriere","https://127.0.0.1:8000/Images/barriere.jfif","difficile",0,'00:04:00.0000000');
+insert into obstacle values (6,"meuble","https://127.0.0.1:8000/Images/meuble.jfif","difficile",0,'00:05:30.0000000');
+insert into obstacle values (7,"pont","https://127.0.0.1:8000/Images/pont.jfif","très difficile",0,'00:04:00.0000000');
+insert into obstacle values (8,"mur","https://127.0.0.1:8000/Images/mur.jfif","très difficile",0,'00:05:30.0000000');
 
 insert into partie values (1,1,1,"2018-09-24",4,5,0);
 insert into partie values (2,2,2,"2018-09-24",4,5,1);
@@ -51,7 +51,6 @@ insert into photo_client values (1,1,"photo1");
 insert into photo_client values (2,2,"photo2");
 insert into photo_client values (3,3,"photo3");
 insert into photo_client values (4,4,"photo4");
-
 
 insert into avis values (1,1,1,"Géniale la salle d'Annecy");
 insert into avis values (2,1,2,"Moins bien que la salle de Bonneville");
@@ -69,6 +68,12 @@ insert into avis values (13,7,1,"Géniale la salle d'Annecy");
 insert into avis values (14,8,2,"Moins bien que la salle de Bonneville");
 insert into avis values (15,9,3,"Trop cher");
 insert into avis values (16,9,4,"Super expérience");
+insert into avis values (17,1,2,"Moins bien que la salle de Bonneville");
+insert into avis values (18,1,2,"Moins bien que la salle de Bonneville");
+insert into avis values (19,1,2,"Moins bien que la salle de Bonneville");
+insert into avis values (20,1,2,"Moins bien que la salle de Bonneville");
+insert into avis values (21,1,2,"Moins bien que la salle de Bonneville");
+insert into avis values (22,1,2,"Moins bien que la salle de Bonneville");
 
 
 
@@ -82,3 +87,11 @@ select * from photo_client;
 select * from avis;
 
 update client set nom = 'defresne' where id = 8;
+update obstacle set type_obstacle = 'facile' where id = 1;
+update obstacle set type_obstacle = 'facile' where id = 4;
+update obstacle set type_obstacle = 'facile' where id = 3;
+update obstacle set type_obstacle = 'difficile' where id = 5;
+update obstacle set type_obstacle = 'difficile' where id = 6;
+update obstacle set type_obstacle = 'facile' where id = 2;
+
+delete avis from avis where id =17;
