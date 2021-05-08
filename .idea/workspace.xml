@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="esthétique">
+    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2021_08_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2021_08_09__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDD/JeuxDeTest.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BDD/JeuxDeTest.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home/home.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/salle/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salle/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/PhotoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/PhotoClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +154,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="PhpAnnotations.SettingsForm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,7 +186,9 @@
       <workItem from="1618180829090" duration="4721000" />
       <workItem from="1618185679331" duration="3788000" />
       <workItem from="1620042784334" duration="10616000" />
-      <workItem from="1620194760890" duration="11295000" />
+      <workItem from="1620194760890" duration="9987000" />
+      <workItem from="1620328044558" duration="3191000" />
+      <workItem from="1620476470086" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="15h51">
       <created>1616770275789</created>
@@ -265,49 +267,7 @@
       <option name="project" value="LOCAL" />
       <updated>1620197960886</updated>
     </task>
-    <task id="LOCAL-00012" summary="design + commentaire par salle valide">
-      <created>1620206922777</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1620206922777</updated>
-    </task>
-    <task id="LOCAL-00013" summary="affichage obstacle + debut stats">
-      <created>1620380445981</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1620380445981</updated>
-    </task>
-    <task id="LOCAL-00014" summary="affichage obstacle + debut stats">
-      <created>1620380465615</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1620380465615</updated>
-    </task>
-    <task id="LOCAL-00015" summary="esthétique">
-      <created>1620390007573</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1620390007574</updated>
-    </task>
-    <task id="LOCAL-00016" summary="esthétique">
-      <created>1620397026511</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1620397026511</updated>
-    </task>
-    <task id="LOCAL-00017" summary="esthétique">
-      <created>1620397491508</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1620397491508</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,70 +295,6 @@
     <MESSAGE value="lien vers page de la salle fonctionnel" />
     <MESSAGE value="commentaire à compléter" />
     <MESSAGE value="Affichage commentaire valide" />
-    <MESSAGE value="design + commentaire par salle valide" />
-    <MESSAGE value="affichage obstacle + debut stats" />
-    <MESSAGE value="esthétique" />
-    <option name="LAST_COMMIT_MESSAGE" value="esthétique" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620206885332">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620206885332" />
-    <state x="712" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617372217944">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="712" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617372217944" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620369545636">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620043600601" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620369545636" />
-    <state x="736" y="432" key="ComposerInitDialogKey" timestamp="1614958955838">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="736" y="432" key="ComposerInitDialogKey/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614958955838" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1618185811009">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="493" y="180" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1618179590922" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618185811009" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617366131700" />
-    <state x="838" y="418" key="Github.ShareDialog" timestamp="1615557759916">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615557759916" />
-    <state x="763" y="225" key="Github.UntrackedFilesDialog" timestamp="1615557766889">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="763" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615557766889" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1620206830630">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620206830630" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1617367083181">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617367083181" />
-    <state x="2381" y="165" key="SettingsEditor" timestamp="1618185940638">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2381" y="165" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618185940638" />
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617372962211" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1620397497065">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616771728700" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620206931076" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620397497065" />
-    <state x="2426" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1618185678727">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1618179584123" />
-    <state x="2426" y="252" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618185678727" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620197910418">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620197910418" />
+    <option name="LAST_COMMIT_MESSAGE" value="Affichage commentaire valide" />
   </component>
 </project>
