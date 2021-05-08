@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2021_08_09__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2021_08_09__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/PhotoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/PhotoClient.php" afterDir="false" />
-    </list>
+    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +183,7 @@
       <workItem from="1620042784334" duration="10616000" />
       <workItem from="1620194760890" duration="9987000" />
       <workItem from="1620328044558" duration="3191000" />
-      <workItem from="1620476470086" duration="1709000" />
+      <workItem from="1620476470086" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="15h51">
       <created>1616770275789</created>
@@ -267,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620197960886</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="photo ajouter">
+      <created>1620478738165</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620478738165</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +297,7 @@
     <MESSAGE value="lien vers page de la salle fonctionnel" />
     <MESSAGE value="commentaire à compléter" />
     <MESSAGE value="Affichage commentaire valide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Affichage commentaire valide" />
+    <MESSAGE value="photo ajouter" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo ajouter" />
   </component>
 </project>
