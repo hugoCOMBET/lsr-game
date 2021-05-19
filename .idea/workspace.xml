@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="" />
+    <list default="true" id="d109db2d-0f9d-4cf3-b8aa-add2c6214bcd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_05_2021_11_52_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_05_2021_11_52__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_05_2021_11_58_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_05_2021_11_58__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2021_08_09_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2021_08_09__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2021_17_00_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_05_2021_17_00__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Home/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home/home.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/salle/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salle/show.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +195,9 @@
       <workItem from="1620042784334" duration="10616000" />
       <workItem from="1620194760890" duration="9987000" />
       <workItem from="1620328044558" duration="3191000" />
-      <workItem from="1620476470086" duration="2030000" />
+      <workItem from="1620476470086" duration="2253000" />
+      <workItem from="1620998782521" duration="104000" />
+      <workItem from="1621398529119" duration="2105000" />
     </task>
     <task id="LOCAL-00001" summary="15h51">
       <created>1616770275789</created>
@@ -269,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620478738165</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="insert mis a jour">
+      <created>1620478942493</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620478942493</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +319,7 @@
     <MESSAGE value="commentaire à compléter" />
     <MESSAGE value="Affichage commentaire valide" />
     <MESSAGE value="photo ajouter" />
-    <option name="LAST_COMMIT_MESSAGE" value="photo ajouter" />
+    <MESSAGE value="insert mis a jour" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert mis a jour" />
   </component>
 </project>
